@@ -1,0 +1,4 @@
+config.yaml
+Gemfile.lock
+data/glines.txt
+data/klines.txt
