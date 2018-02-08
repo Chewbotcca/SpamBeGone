@@ -1,0 +1,36 @@
+---
+
+#################### WARNING ####################
+# Do NOT modify or add quotation marks.         #
+# Put your options after the option:            #
+# Only modify whats INSIDE the quotation marks. #
+# When this file is modified by the program,    #
+# The comments will wipe. So set this up!       #
+#################################################
+
+### BOT CONFIGURATION ###
+
+# Put the nickname you want for the bot. (Ex. Chewbotcca)
+nickname:
+
+# Set the bot username and realname. This is optional.
+realname:
+username:
+
+### SERVER INFORMATION ###
+
+# Put the server you want. (Ex. irc.chew.chat)
+server:
+# Server Port (default: 6667)
+port:
+# Put the Channels you want to join, Comma separated. (ex. #chan1,#chan2)
+# Do not modify these quotation marks.
+channels:     ""
+## Connect using SSL? (Set to true to enable)
+ssl: false
+## Have a server password? Put it below! Otherwise, leave it blank!
+serverpass:
+
+# NickServ Password (Don't have nickserv account? Don't worry! Run !nsregister pass email and it will set up the rest.)]
+# Only tested with Atheme IRC services. Report a bug if it does not work on other services.
+nickservpass:
