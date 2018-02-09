@@ -84,7 +84,7 @@ bot = Cinch::Bot.new do
     c.plugins.prefix = //
 
     # Load modules.
-    c.plugins.plugins = [Main]
+    c.plugins.plugins = [Main, Authentication, NickServ]
   end
 end
 
