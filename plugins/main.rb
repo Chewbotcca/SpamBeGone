@@ -2,10 +2,6 @@ class Main
   include Cinch::Plugin
 
   listen_to :channel, method: :checkforspammers, strip_colors: true
-  listen_to :connect, method: :identify
-
-  def identify(_m)
-  end
 
   def checkforspammers(m)
     users = m.channel.users.keys.join(',').split(',')
