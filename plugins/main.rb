@@ -17,7 +17,6 @@ class Main
       mention += 1 if message.include?(meme) == true
     end
     banspammer = true if mention > 2
-    bot.irc.send("KILL #{m.user.name}") if banspammer == true
-    m.reply 'You just got banned, bucko' if banspammer == true
+    bot.irc.send("KILL #{m.user.name} Spam is off topic on ChewChat") if banspammer == true
   end
 end
