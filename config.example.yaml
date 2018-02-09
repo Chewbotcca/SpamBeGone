@@ -17,6 +17,12 @@ nickname:
 realname:
 username:
 
+### BOT OPER PERMS ###
+
+# If operusername = bot nickname, leave blank!
+operusername:
+operpass:
+
 ### SERVER INFORMATION ###
 
 # Put the server you want. (Ex. irc.chew.chat)
