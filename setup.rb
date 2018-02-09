@@ -32,12 +32,12 @@ class Setup
     puts 'What would you like to configure?'
     puts '[1] - Bot information (REQUIRED)'
     puts '[2] - Connection information (REQUIRED)'
-    puts '[3] - Main Menu'
+    puts '[3] - Exit'
     input = gets.chomp
 
     configure('bot') if input == '1'
     configure('server') if input == '2'
-    welcome
+    exit
   end
 
   def configure(section)
@@ -94,6 +94,10 @@ class Setup
   rescue => e
     puts 'uh oh, there was an error saving. Report the following error to Chew on github'
     puts e
+  end
+
+  def true?(obj)
+    obj.to_s == 'true'
   end
 end
 
